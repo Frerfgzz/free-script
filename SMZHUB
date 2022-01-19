@@ -6651,7 +6651,7 @@ spawn(function()
         end
     end
 end)
-local tab2 = server:Channel("Players")
+-- local tab2 = server:Channel("Players")
 PlayerName = {}
         for i,v in pairs(game.Players:GetChildren()) do  
             table.insert(PlayerName ,v.Name)
@@ -8246,7 +8246,7 @@ function UpPlayer()
 		buy:Button("Random Fruit", function()
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Cousin","Buy")
 		end)
-		local shop = server:Channel("Shop")
+		-- local shop = server:Channel("Shop")
 		shop:Label("Reset Stats")
 
 shop:Button("Reset Stats",function()

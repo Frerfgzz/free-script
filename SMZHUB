@@ -3966,7 +3966,7 @@ spawn(function()
 	  end
 end)
 main:Button("Bypass",function()
-	loadstring(game:HttpGet("https://pastebin.com/f7WAf3MS"))()
+	loadstring("https://pastebin.com/raw/Je08ygEB"))()
 end)
 _G.FarmLevel = false
 main:Toggle("AutoFarm",false,function(x)

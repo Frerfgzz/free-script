@@ -3261,7 +3261,7 @@ function RadientPaid:Window(text,maincolor)
 	end
 	return ServerHold
 end
-local RadientPaid = RadientPaid:Window("Blox Fruit (17)")
+local RadientPaid = RadientPaid:Window("Blox Fruit beta test")
 local server = RadientPaid:Server("Smz HUB", "", "")
 local main = server:Channel("Main")
 local placeId = game.PlaceId
@@ -6651,7 +6651,7 @@ spawn(function()
         end
     end
 end)
-local tab00 = server:Channel("Players")
+-- local tab2 = server:Channel("Players")
 PlayerName = {}
         for i,v in pairs(game.Players:GetChildren()) do  
             table.insert(PlayerName ,v.Name)
